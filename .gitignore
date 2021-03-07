@@ -2,4 +2,4 @@
 target/
 dbt_modules/
 logs/
-profiles.yml
+profiles_override.yml

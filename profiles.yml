@@ -1,0 +1,19 @@
+config:
+  send_anonymous_usage_stats: False
+
+default:
+  outputs:
+
+    dev: # User-Password config
+      type: snowflake
+      account: [account id + region (if applicable)]
+      user: [username]
+      password: [password]
+      role: [user role]
+      database: [database name]
+      warehouse: [warehouse name]
+      schema: [dbt_username]
+      threads: [1 or more]
+      client_session_keep_alive: False
+
+  target: dev
