@@ -3,15 +3,16 @@ config:
 
 default:
   outputs:
+
     dev: # User-Password config
       type: snowflake
-      account: DJB65769.us-east-1
+      account: your-snowflake-account-id-here
       user: DBT_CLOUD_DEV
-      password: Letra12345
+      password: your-password-here
       role: TRANSFORMER_DEV
       database: DEV
-      warehouse: TRANSFORMING_DEV
-      schema: dbt_facucuzziol
+      warehouse: TRANSFORMING
+      schema: dbt_your-username-here
       threads: 2
       client_session_keep_alive: False
 
