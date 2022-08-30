@@ -4,11 +4,11 @@ config:
 default:
   outputs:
 
-    dev: # User-Password config
+    dev:  Krish@1998
       type: snowflake
-      account: your-snowflake-account-id-here
+      account: bub70851.us-east-1
       user: DBT_CLOUD_DEV
-      password: your-password-here
+      password: Krish@1998
       role: TRANSFORMER_DEV
       database: DEV
       warehouse: TRANSFORMING
